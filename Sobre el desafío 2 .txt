@@ -1,0 +1,29 @@
+﻿POSIBLES CLASES: 
+Equipo, jugador, partido, fecha? hora?, etapa?, grupo, bombo? tabla de clasificación? Clase equipo (morirá pronto) 
+
+
+Partido: fecha, hora, equipos, árbitros, duración del partido, % posesión del balón, lista 
+Jugador: Establecer las asistencias a cero para esta versión. 
+
+
+NOTA: 1.  El sistema debe permitir la gestión eficiente de los datos de los equipos, jugadores, partidos y calendario de juego (fixture), entre otros. 
+2. El objetivo es gestionar los datos, para eso tocará buscar cosas sobre los datos de tipo colección
+3. Tenga en cuenta el criterio de eficiencia (en memoria e instrucciones), así como el modelado adecuado de clases y estructuras de datos, pues será esencial para cumplir los objetivos del desarrollo.
+4. Son 48 equipos. En el cvs tiene director técnico, federación nacional y confederación (continente), ranking y estadísticas de goles y partidos.
+5. 26 jugadores x equipo. Nombre, apellido y número de camiseta. Partidos jugados, asistencias, yellow, red y faltas. Todos inician con faltas, rojas y amarillas en cero. Los goles se deben repartir uniformemente, hasta llegar al número de goles que aparece en el cvs.
+6. Las estadísticas históricas provienen de los resultados de torneos anteriores y además deben actualizarse luego de cada partido de la copa mundial. 
+7. Al inicio, las estadísticas históricas por jugador deben fabricarse artificialmente. 
+8. Los equipos del mundial 2026 se organizan en 12 grupos, cada grupo se identifica con una letra y contiene 4 equipos. 
+9. Los equipos se ordenan por ranking FIFA y se reparten en 4 bombos de 12 selecciones (bombo 1 = mejor ranking, bombo 4 = peor).
+10. Las etapas tienen criterios para pasar diferentes,
+
+
+
+
+Todas las clases deben tener el método de construcción de copia.
+Sobrecarga del constructor. Sobrecargar el operador de asignación y el de comparación de igualdad. 
+Programación modular
+
+
+20/04/2026
+Se hicieron unos primeros avances con el diagrama de clases y se discutió cuántas de estas serán necesarias para el desarrollo del desafío.
