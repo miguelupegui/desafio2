@@ -8,10 +8,9 @@ class Jugador
 {
 private:
     // los nombres y apellidos serán nombreN y apellidoN, siendo N el # de la camiseta
-    string const nombre, apellido;
+    string nombre, apellido;
 
-    unsigned short int const numero;
-    unsigned short int goles, asistencias, faltas, rojas, amari, minutos;
+    unsigned short int numero, goles, asistencias, faltas, rojas, amari, minutos;
 
 public:
     // Constructor

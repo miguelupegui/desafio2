@@ -55,4 +55,12 @@ void Jugador::setAsistencias(short _asistencias) {
     asistencias += _asistencias;
 }
 
+// Método para imprimir datos de forma bonita
+/*
+void Jugador::mostrarEstadisticas() const {
+    cout << "Jugador: " << nombre << " " << apellido << " (#" << numero << ")" << endl;
+    cout << "Goles: " << goles << " | Asistencias: " << asistencias << endl;
+    cout << "--------------------------" << endl;
+}
+*/
 
